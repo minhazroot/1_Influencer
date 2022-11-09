@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /*------------------
@@ -105,6 +107,11 @@ body {
 
 }
 
+.host {
+    text-align: right;
+    align-items: right;
+}
+
 .brand_contnar img {
     margin-left: 60px;
     width: 55.5px;
@@ -119,16 +126,23 @@ body {
 .popular_contenar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
     margin-left: 30px;
     justify-items: center;
     margin-bottom: 50px;
+}
+
+.popu_head {
+    text-align: center;
+    margin-bottom: 23px;
+    font-size: 28px;
 }
 
 .popular_box {
     width: 329px;
     height: auto;
     margin-left: 16px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
     border-radius: 7px;
@@ -185,35 +199,81 @@ body {
 
 .popular_contenar a {
     color: red;
-    margin-bottom: 20px;
+    text-align: right;
     font-size: 16px;
     text-decoration: none;
-    text-align: right;
+    text-align: center;
+
+}
+
+.fa-arrow-right {
+    text-align: center;
 }
 
 /* Popular Collection end */
 /* Featured products at one place start */
 .Featured_contnar {
     display: flex;
+    width: 1110px;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 165px;
+    margin-top: 100px;
+    border: 3px solid black;
+    justify-content: space-between;
 
-
-
+    align-items: center
 }
 
-.Featured_contnar:hover {
-    margin: 2px solid gray;
+.Featured_contnar :hover {
+    margin: 4px solid black;
 }
 
 .Featured_contnar img {
     width: 404px;
     height: 270px;
+    margin: 5px;
+    margin-right: 20px;
 }
 
 .Featured_box {
     margin-left: 40px;
 }
 
+.Featured_box button {
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border-radius: 5px;
+}
 
 /* Featured products at one place end */
+/* footer style */
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer h1 {
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+footer h3,
+h4 {
+    font-size: 14px;
+}
+
+.icon {
+    margin-left: 10px;
+    font-size: 30px;
+
+}
+
+.icon a {
+    margin-left: 20px;
+    color: white;
+}
