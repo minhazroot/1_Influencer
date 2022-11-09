@@ -87,3 +87,29 @@ body {
 /*---------------
   Start your Journey end
   --------------------------*/
+
+/* brand style start */
+.brand_contnar {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 1110px;
+    height: 110;
+
+
+
+}
+
+.brand_contnar:hover {
+    border: 1px solid grey;
+
+}
+
+.brand_contnar img {
+    margin-left: 60px;
+    width: 55.5px;
+    height: 31.6px;
+    padding: 31px;
+}
+
+/* brand style end */
